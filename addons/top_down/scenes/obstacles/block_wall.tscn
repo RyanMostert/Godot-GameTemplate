@@ -1,7 +1,7 @@
 [gd_scene load_steps=9 format=3 uid="uid://cm475mndno581"]
 
-[ext_resource type="Texture2D" uid="uid://doqtqyumyses8" path="res://addons/top_down/assets/images/misc/block_strip4.png" id="1_bk066"]
-[ext_resource type="Script" path="res://addons/top_down/scripts/obstackles/ArenaDoorBlock.gd" id="2_ljggu"]
+[ext_resource type="Texture2D" uid="uid://cpuhkc5k0mrks" path="res://addons/top_down/assets/images/misc/block_strip4.png" id="1_bk066"]
+[ext_resource type="Script" uid="uid://xqf8ark16i0o" path="res://addons/top_down/scripts/obstackles/ArenaDoorBlock.gd" id="2_ljggu"]
 [ext_resource type="Resource" uid="uid://dfx5wg7nqxg5b" path="res://addons/top_down/resources/arena_resources/obstacle_astargrid_resource.tres" id="3_on1cq"]
 [ext_resource type="Resource" uid="uid://c7ckp7i2820tg" path="res://addons/top_down/resources/arena_resources/fight_mode_resource.tres" id="4_r1cw6"]
 
@@ -92,9 +92,9 @@ tracks/1/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_dwvqo"]
 _data = {
-"RESET": SubResource("Animation_xato0"),
-"turn_off": SubResource("Animation_55fo7"),
-"turn_on": SubResource("Animation_dgum3")
+&"RESET": SubResource("Animation_xato0"),
+&"turn_off": SubResource("Animation_55fo7"),
+&"turn_on": SubResource("Animation_dgum3")
 }
 
 [node name="BlockWall" type="Node2D"]

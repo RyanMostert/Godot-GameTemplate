@@ -1,13 +1,13 @@
 [gd_resource type="Resource" script_class="ItemCollectionResource" load_steps=15 format=3 uid="uid://bytbvhnnajqxd"]
 
-[ext_resource type="Script" path="res://addons/top_down/scripts/pickups/WeaponItemResource.gd" id="1_bo3ff"]
-[ext_resource type="Script" path="res://addons/top_down/scripts/pickups/ItemResource.gd" id="1_mbiyi"]
-[ext_resource type="Texture2D" uid="uid://cmrj6rrgbfvlg" path="res://addons/top_down/assets/images/weapon/gun_0.png" id="2_jrlm3"]
-[ext_resource type="Script" path="res://addons/top_down/scripts/pickups/ItemCollectionResource.gd" id="2_tekla"]
-[ext_resource type="Texture2D" uid="uid://dowxjnhdgsmac" path="res://addons/top_down/assets/images/weapon/gun_1.png" id="3_1j2rw"]
-[ext_resource type="Texture2D" uid="uid://b0wnk1hh6fkkd" path="res://addons/top_down/assets/images/weapon/gun_3.png" id="4_fglbe"]
-[ext_resource type="Texture2D" uid="uid://bi8g0elk5ljha" path="res://addons/top_down/assets/images/weapon/sword_0.png" id="5_n1on6"]
-[ext_resource type="Texture2D" uid="uid://b401nw0koxhnk" path="res://addons/top_down/assets/images/vfx/slash_2_strip5.png" id="6_ot0bc"]
+[ext_resource type="Script" uid="uid://doxc3m7bviav5" path="res://addons/top_down/scripts/pickups/WeaponItemResource.gd" id="1_bo3ff"]
+[ext_resource type="Script" uid="uid://ckub6pg46yqi1" path="res://addons/top_down/scripts/pickups/ItemResource.gd" id="1_mbiyi"]
+[ext_resource type="Texture2D" uid="uid://c6shalrbhoifw" path="res://addons/top_down/assets/images/weapon/gun_0.png" id="2_jrlm3"]
+[ext_resource type="Script" uid="uid://dvk14gn8pwcb5" path="res://addons/top_down/scripts/pickups/ItemCollectionResource.gd" id="2_tekla"]
+[ext_resource type="Texture2D" uid="uid://be6ofrytxbnmy" path="res://addons/top_down/assets/images/weapon/gun_1.png" id="3_1j2rw"]
+[ext_resource type="Texture2D" uid="uid://dpmqtyqknakyj" path="res://addons/top_down/assets/images/weapon/gun_3.png" id="4_fglbe"]
+[ext_resource type="Texture2D" uid="uid://c54nybwiekmyn" path="res://addons/top_down/assets/images/weapon/sword_0.png" id="5_n1on6"]
+[ext_resource type="Texture2D" uid="uid://wic35va1l6bw" path="res://addons/top_down/assets/images/vfx/slash_2_strip5.png" id="6_ot0bc"]
 
 [sub_resource type="Resource" id="Resource_q51dg"]
 resource_name = "Gun"

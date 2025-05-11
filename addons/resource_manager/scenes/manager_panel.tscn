@@ -1,7 +1,7 @@
 [gd_scene load_steps=6 format=3 uid="uid://br7hb0notnma5"]
 
-[ext_resource type="Script" path="res://addons/resource_manager/scripts/manager_panel.gd" id="1_5pxac"]
-[ext_resource type="Script" path="res://addons/resource_manager/scripts/new_resource.gd" id="2_16fmu"]
+[ext_resource type="Script" uid="uid://bmpqgobmhwngt" path="res://addons/resource_manager/scripts/manager_panel.gd" id="1_5pxac"]
+[ext_resource type="Script" uid="uid://dteok3fkoeidw" path="res://addons/resource_manager/scripts/new_resource.gd" id="2_16fmu"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_tkmfu"]
 bg_color = Color(0.129412, 0.14902, 0.180392, 1)

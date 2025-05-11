@@ -1,8 +1,8 @@
 [gd_scene load_steps=10 format=3 uid="uid://bu2n5cvym7bse"]
 
-[ext_resource type="Texture2D" uid="uid://b3gj1j73p318" path="res://addons/top_down/assets/images/shadow.png" id="1_uohpc"]
-[ext_resource type="Script" path="res://addons/great_games_library/resources/InstanceResource/PoolNode.gd" id="3_lydny"]
-[ext_resource type="Texture2D" uid="uid://cegdmdkhfv76l" path="res://addons/top_down/assets/images/characters/zombie_16x16_strip8.png" id="5_pym8g"]
+[ext_resource type="Texture2D" uid="uid://btux0r75eqbjr" path="res://addons/top_down/assets/images/shadow.png" id="1_uohpc"]
+[ext_resource type="Script" uid="uid://bmi3u53vwvxll" path="res://addons/great_games_library/resources/InstanceResource/PoolNode.gd" id="3_lydny"]
+[ext_resource type="Texture2D" uid="uid://bl6dqjkf5b262" path="res://addons/top_down/assets/images/characters/zombie_16x16_strip8.png" id="5_pym8g"]
 
 [sub_resource type="Animation" id="Animation_48kfv"]
 length = 0.001
@@ -109,8 +109,8 @@ tracks/4/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_esakt"]
 _data = {
-"RESET": SubResource("Animation_48kfv"),
-"died": SubResource("Animation_2ygqc")
+&"RESET": SubResource("Animation_48kfv"),
+&"died": SubResource("Animation_2ygqc")
 }
 
 [sub_resource type="Animation" id="Animation_itq31"]
@@ -146,8 +146,8 @@ tracks/0/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_tbujk"]
 _data = {
-"RESET": SubResource("Animation_itq31"),
-"flash": SubResource("Animation_tledj")
+&"RESET": SubResource("Animation_itq31"),
+&"flash": SubResource("Animation_tledj")
 }
 
 [node name="Zombie" type="Node2D"]

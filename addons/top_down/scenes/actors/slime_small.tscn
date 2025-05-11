@@ -1,22 +1,22 @@
 [gd_scene load_steps=40 format=3 uid="uid://wx0lrqm8jjh2"]
 
 [ext_resource type="PackedScene" uid="uid://botai66n8rwt3" path="res://addons/top_down/scenes/actors/actor.tscn" id="1_6nai7"]
-[ext_resource type="Script" path="res://addons/great_games_library/nodes/ResourceNode/ResourceNodeItem.gd" id="2_lpgfe"]
-[ext_resource type="Script" path="res://addons/top_down/scripts/actor/ActorStatsResource.gd" id="3_rqueo"]
-[ext_resource type="Script" path="res://addons/top_down/scripts/damage/HealthResource.gd" id="4_oc823"]
-[ext_resource type="Script" path="res://addons/top_down/scripts/actor/PushResource.gd" id="5_kmu82"]
-[ext_resource type="Script" path="res://addons/great_games_library/resources/ValueResource/BoolResource.gd" id="6_8m40n"]
-[ext_resource type="Script" path="res://addons/top_down/scripts/input/InputResource.gd" id="7_gxrd0"]
-[ext_resource type="Script" path="res://addons/top_down/scripts/damage/DamageResource.gd" id="8_hotxp"]
-[ext_resource type="Shader" path="res://addons/top_down/scripts/shaders/color_flash.gdshader" id="9_tba0g"]
-[ext_resource type="Texture2D" uid="uid://bqi0aqmjvx8ui" path="res://addons/top_down/assets/images/characters/slime_small_16x16_strip7.png" id="10_7og58"]
+[ext_resource type="Script" uid="uid://chedvwjumy0sn" path="res://addons/great_games_library/nodes/ResourceNode/ResourceNodeItem.gd" id="2_lpgfe"]
+[ext_resource type="Script" uid="uid://nkeodmm6x11q" path="res://addons/top_down/scripts/actor/ActorStatsResource.gd" id="3_rqueo"]
+[ext_resource type="Script" uid="uid://16kg0f7asjl3" path="res://addons/top_down/scripts/damage/HealthResource.gd" id="4_oc823"]
+[ext_resource type="Script" uid="uid://cd6cuipm8tono" path="res://addons/top_down/scripts/actor/PushResource.gd" id="5_kmu82"]
+[ext_resource type="Script" uid="uid://d0jgh3qg2wmou" path="res://addons/great_games_library/resources/ValueResource/BoolResource.gd" id="6_8m40n"]
+[ext_resource type="Script" uid="uid://dg407o7v5nvo5" path="res://addons/top_down/scripts/input/InputResource.gd" id="7_gxrd0"]
+[ext_resource type="Script" uid="uid://dtajw3yyfxdnq" path="res://addons/top_down/scripts/damage/DamageResource.gd" id="8_hotxp"]
+[ext_resource type="Shader" uid="uid://celxe33uvcnhs" path="res://addons/top_down/scripts/shaders/color_flash.gdshader" id="9_tba0g"]
+[ext_resource type="Texture2D" uid="uid://bcj6vq3xd8b8r" path="res://addons/top_down/assets/images/characters/slime_small_16x16_strip7.png" id="10_7og58"]
 [ext_resource type="Resource" uid="uid://pvw6k1ntsles" path="res://addons/top_down/resources/sounds/zombie_split.tres" id="11_3ifc4"]
 [ext_resource type="Resource" uid="uid://weoefubhnbf" path="res://addons/top_down/resources/InstanceResources/vfx/dead/slime_small_dead_instance_resource.tres" id="12_ue07f"]
-[ext_resource type="Script" path="res://addons/top_down/scripts/damage/properties/DamageTypeResource.gd" id="13_p075e"]
+[ext_resource type="Script" uid="uid://cblgt46kmt8el" path="res://addons/top_down/scripts/damage/properties/DamageTypeResource.gd" id="13_p075e"]
 [ext_resource type="PackedScene" uid="uid://cenq1bawfywu8" path="res://addons/top_down/scenes/actors/ai/enemy_ai.tscn" id="14_7mujn"]
 [ext_resource type="PackedScene" uid="uid://baisjmcsnk3on" path="res://addons/top_down/scenes/weapons/zombie_attack.tscn" id="15_r51fg"]
-[ext_resource type="Script" path="res://addons/great_games_library/resources/InstanceResource/PoolNode.gd" id="18_3fcet"]
-[ext_resource type="Script" path="res://addons/top_down/scripts/actor/bots/ActiveEnemy.gd" id="19_sgvoa"]
+[ext_resource type="Script" uid="uid://bmi3u53vwvxll" path="res://addons/great_games_library/resources/InstanceResource/PoolNode.gd" id="18_3fcet"]
+[ext_resource type="Script" uid="uid://cu6wm68v5o8re" path="res://addons/top_down/scripts/actor/bots/ActiveEnemy.gd" id="19_sgvoa"]
 
 [sub_resource type="Resource" id="Resource_16400"]
 resource_name = "movement  properties"
@@ -213,9 +213,9 @@ tracks/0/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_esakt"]
 _data = {
-"RESET": SubResource("Animation_48kfv"),
-"idle": SubResource("Animation_jjeif"),
-"walk": SubResource("Animation_d7gcn")
+&"RESET": SubResource("Animation_48kfv"),
+&"idle": SubResource("Animation_jjeif"),
+&"walk": SubResource("Animation_d7gcn")
 }
 
 [sub_resource type="Resource" id="Resource_7dwox"]

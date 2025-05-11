@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=3 uid="uid://ov7wns1p1tbk"]
 
-[ext_resource type="Script" path="res://addons/resource_manager/scripts/ResourcePropertyEditor.gd" id="1_71dlf"]
+[ext_resource type="Script" uid="uid://boi1gjar3mxwd" path="res://addons/resource_manager/scripts/ResourcePropertyEditor.gd" id="1_71dlf"]
 
 [node name="ResourceProperty" type="VBoxContainer" node_paths=PackedStringArray("main_container")]
 offset_right = 40.0

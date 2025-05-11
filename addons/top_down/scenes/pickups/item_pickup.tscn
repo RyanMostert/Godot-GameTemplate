@@ -1,11 +1,11 @@
 [gd_scene load_steps=11 format=3 uid="uid://d0f2wib8tyow0"]
 
 [ext_resource type="PackedScene" uid="uid://bm0cdv63uc8am" path="res://addons/top_down/scenes/pickups/pickup.tscn" id="1_ffask"]
-[ext_resource type="Script" path="res://addons/top_down/scripts/pickups/ItemPickup.gd" id="2_r0an6"]
-[ext_resource type="Script" path="res://addons/great_games_library/resources/SoundResource/SoundResource.gd" id="3_4bbay"]
-[ext_resource type="Script" path="res://addons/great_games_library/nodes/AreaTransmitter/DataChannelTransmitter.gd" id="3_fay7m"]
-[ext_resource type="AudioStream" uid="uid://bo4pd7t8d2s2i" path="res://addons/top_down/assets/sounds/pickup_5.wav" id="4_25psd"]
-[ext_resource type="Texture2D" uid="uid://bevk5id3o0bei" path="res://addons/top_down/assets/images/shadow.png" id="4_r0lbw"]
+[ext_resource type="Script" uid="uid://bu1gfxjay8o8" path="res://addons/top_down/scripts/pickups/ItemPickup.gd" id="2_r0an6"]
+[ext_resource type="Script" uid="uid://c0anxklpqjusd" path="res://addons/great_games_library/resources/SoundResource/SoundResource.gd" id="3_4bbay"]
+[ext_resource type="Script" uid="uid://ykt2wfsj0a1a" path="res://addons/great_games_library/nodes/AreaTransmitter/DataChannelTransmitter.gd" id="3_fay7m"]
+[ext_resource type="AudioStream" uid="uid://dd56yuxtc4o0h" path="res://addons/top_down/assets/sounds/pickup_5.wav" id="4_25psd"]
+[ext_resource type="Texture2D" uid="uid://btux0r75eqbjr" path="res://addons/top_down/assets/images/shadow.png" id="4_r0lbw"]
 
 [sub_resource type="Resource" id="Resource_ig3eg"]
 resource_name = "Item Pickup"
@@ -77,8 +77,8 @@ tracks/1/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_8j3g8"]
 _data = {
-"RESET": SubResource("Animation_rkij2"),
-"flow": SubResource("Animation_xlg62")
+&"RESET": SubResource("Animation_rkij2"),
+&"flow": SubResource("Animation_xlg62")
 }
 
 [node name="ItemPickup" node_paths=PackedStringArray("icon_sprite", "data_transmitter") instance=ExtResource("1_ffask")]

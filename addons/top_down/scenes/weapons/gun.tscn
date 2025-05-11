@@ -1,10 +1,10 @@
 [gd_scene load_steps=11 format=3 uid="uid://bxf4p5yoajpdu"]
 
 [ext_resource type="PackedScene" uid="uid://do8p6aamuv46h" path="res://addons/top_down/scenes/weapons/weapon.tscn" id="1_1sltl"]
-[ext_resource type="Script" path="res://addons/top_down/scripts/damage/properties/DamageTypeResource.gd" id="2_yyucw"]
-[ext_resource type="Script" path="res://addons/top_down/scripts/damage/properties/DamageDataResource.gd" id="3_ibreu"]
+[ext_resource type="Script" uid="uid://cblgt46kmt8el" path="res://addons/top_down/scripts/damage/properties/DamageTypeResource.gd" id="2_yyucw"]
+[ext_resource type="Script" uid="uid://ca7xtmy7cx3vb" path="res://addons/top_down/scripts/damage/properties/DamageDataResource.gd" id="3_ibreu"]
 [ext_resource type="Resource" uid="uid://bsgm5x8805se7" path="res://addons/top_down/resources/sounds/bullet.tres" id="3_k087s"]
-[ext_resource type="Script" path="res://addons/top_down/scripts/damage/properties/DamageStatusResource.gd" id="4_ycuyb"]
+[ext_resource type="Script" uid="uid://cmc3nmlq6mrdb" path="res://addons/top_down/scripts/damage/properties/DamageStatusResource.gd" id="4_ycuyb"]
 [ext_resource type="Resource" uid="uid://d1ui7w7atv8wt" path="res://addons/top_down/resources/InstanceResources/projectiles/gun_bullet_instance_resource.tres" id="5_2qq6f"]
 
 [sub_resource type="Resource" id="Resource_gu1qv"]
@@ -55,8 +55,8 @@ tracks/0/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_h0x75"]
 _data = {
-"RESET": SubResource("Animation_qbqgg"),
-"shoot": SubResource("Animation_4mvxk")
+&"RESET": SubResource("Animation_qbqgg"),
+&"shoot": SubResource("Animation_4mvxk")
 }
 
 [node name="Gun" instance=ExtResource("1_1sltl")]

@@ -1,10 +1,10 @@
 [gd_scene load_steps=12 format=3 uid="uid://cmmx82t54wble"]
 
 [ext_resource type="PackedScene" uid="uid://bxf4p5yoajpdu" path="res://addons/top_down/scenes/weapons/gun.tscn" id="1_tcvta"]
-[ext_resource type="Script" path="res://addons/top_down/scripts/damage/properties/DamageTypeResource.gd" id="2_ky0bo"]
-[ext_resource type="Texture2D" uid="uid://bi8g0elk5ljha" path="res://addons/top_down/assets/images/weapon/sword_0.png" id="3_ah0df"]
-[ext_resource type="Script" path="res://addons/top_down/scripts/damage/properties/DamageDataResource.gd" id="3_h2w8s"]
-[ext_resource type="Script" path="res://addons/top_down/scripts/damage/properties/DamageStatusResource.gd" id="4_3xvip"]
+[ext_resource type="Script" uid="uid://cblgt46kmt8el" path="res://addons/top_down/scripts/damage/properties/DamageTypeResource.gd" id="2_ky0bo"]
+[ext_resource type="Texture2D" uid="uid://c54nybwiekmyn" path="res://addons/top_down/assets/images/weapon/sword_0.png" id="3_ah0df"]
+[ext_resource type="Script" uid="uid://ca7xtmy7cx3vb" path="res://addons/top_down/scripts/damage/properties/DamageDataResource.gd" id="3_h2w8s"]
+[ext_resource type="Script" uid="uid://cmc3nmlq6mrdb" path="res://addons/top_down/scripts/damage/properties/DamageStatusResource.gd" id="4_3xvip"]
 [ext_resource type="Resource" uid="uid://djdgiocrbvmt8" path="res://addons/top_down/resources/InstanceResources/projectiles/sword_slash_instance_resource.tres" id="5_88188"]
 
 [sub_resource type="Resource" id="Resource_h373d"]
@@ -15,6 +15,7 @@ critical_multiply = 1.5
 status_list = Array[ExtResource("4_3xvip")]([])
 hit_list = []
 report_callback = Callable()
+kickback_strength = 0.0
 transmission_name = &""
 state = -1
 valid = true
@@ -106,9 +107,9 @@ tracks/1/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_sorlh"]
 _data = {
-"RESET": SubResource("Animation_ku8ja"),
-"slash_1": SubResource("Animation_k26j0"),
-"slash_2": SubResource("Animation_l1rlv")
+&"RESET": SubResource("Animation_ku8ja"),
+&"slash_1": SubResource("Animation_k26j0"),
+&"slash_2": SubResource("Animation_l1rlv")
 }
 
 [node name="Sword" instance=ExtResource("1_tcvta")]

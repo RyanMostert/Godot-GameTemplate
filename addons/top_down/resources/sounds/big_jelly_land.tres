@@ -1,7 +1,7 @@
 [gd_resource type="Resource" script_class="SoundResource" load_steps=3 format=3 uid="uid://2oxos6r5uams"]
 
-[ext_resource type="Script" path="res://addons/great_games_library/resources/SoundResource/SoundResource.gd" id="1_yhh81"]
-[ext_resource type="AudioStream" uid="uid://dbeh51jgl5qnm" path="res://addons/top_down/assets/sounds/stomp_1.wav" id="2_ae3o0"]
+[ext_resource type="Script" uid="uid://c0anxklpqjusd" path="res://addons/great_games_library/resources/SoundResource/SoundResource.gd" id="1_yhh81"]
+[ext_resource type="AudioStream" uid="uid://twggogy0xf0n" path="res://addons/top_down/assets/sounds/stomp_1.wav" id="2_ae3o0"]
 
 [resource]
 script = ExtResource("1_yhh81")

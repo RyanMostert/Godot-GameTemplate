@@ -1,8 +1,8 @@
 [gd_scene load_steps=10 format=3 uid="uid://dxfk013okj2tt"]
 
-[ext_resource type="Texture2D" uid="uid://bevk5id3o0bei" path="res://addons/top_down/assets/images/shadow.png" id="1_fko1y"]
-[ext_resource type="Texture2D" uid="uid://gtg5bd7rvsjg" path="res://addons/top_down/assets/images/characters/zombie_crawler_16x16_strip6-sheet.png" id="2_tjufq"]
-[ext_resource type="Script" path="res://addons/great_games_library/resources/InstanceResource/PoolNode.gd" id="3_s47dv"]
+[ext_resource type="Texture2D" uid="uid://btux0r75eqbjr" path="res://addons/top_down/assets/images/shadow.png" id="1_fko1y"]
+[ext_resource type="Texture2D" uid="uid://cbgdscok2lpo" path="res://addons/top_down/assets/images/characters/zombie_crawler_16x16_strip6-sheet.png" id="2_tjufq"]
+[ext_resource type="Script" uid="uid://bmi3u53vwvxll" path="res://addons/great_games_library/resources/InstanceResource/PoolNode.gd" id="3_s47dv"]
 
 [sub_resource type="Animation" id="Animation_48kfv"]
 length = 0.001
@@ -109,8 +109,8 @@ tracks/4/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_esakt"]
 _data = {
-"RESET": SubResource("Animation_48kfv"),
-"died": SubResource("Animation_2ygqc")
+&"RESET": SubResource("Animation_48kfv"),
+&"died": SubResource("Animation_2ygqc")
 }
 
 [sub_resource type="Animation" id="Animation_itq31"]
@@ -146,8 +146,8 @@ tracks/0/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_tbujk"]
 _data = {
-"RESET": SubResource("Animation_itq31"),
-"flash": SubResource("Animation_tledj")
+&"RESET": SubResource("Animation_itq31"),
+&"flash": SubResource("Animation_tledj")
 }
 
 [node name="ZombieCrawlerDead" type="Node2D"]

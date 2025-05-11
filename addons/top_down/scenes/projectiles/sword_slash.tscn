@@ -1,13 +1,13 @@
 [gd_scene load_steps=15 format=3 uid="uid://c6ys2qs8aeu8n"]
 
 [ext_resource type="PackedScene" uid="uid://beifde6xst23w" path="res://addons/top_down/scenes/projectiles/projectile.tscn" id="1_lwexf"]
-[ext_resource type="Script" path="res://addons/top_down/scripts/damage/properties/DamageTypeResource.gd" id="2_mr7yn"]
-[ext_resource type="Texture2D" uid="uid://bevk5id3o0bei" path="res://addons/top_down/assets/images/shadow.png" id="2_pfam2"]
+[ext_resource type="Script" uid="uid://cblgt46kmt8el" path="res://addons/top_down/scripts/damage/properties/DamageTypeResource.gd" id="2_mr7yn"]
+[ext_resource type="Texture2D" uid="uid://btux0r75eqbjr" path="res://addons/top_down/assets/images/shadow.png" id="2_pfam2"]
 [ext_resource type="PackedScene" uid="uid://djobi3eqlcjvo" path="res://addons/top_down/scenes/vfx/trail_particle.tscn" id="3_gx0bp"]
-[ext_resource type="Texture2D" uid="uid://ddyug4weofr3x" path="res://addons/top_down/assets/images/vfx/slash_3_strip4.png" id="4_u6vsr"]
+[ext_resource type="Texture2D" uid="uid://d1a5kak2unsdr" path="res://addons/top_down/assets/images/vfx/slash_3_strip4.png" id="4_u6vsr"]
 [ext_resource type="Resource" uid="uid://dedx0gi4fowby" path="res://addons/top_down/resources/global_resources/axis_multiplication_resource.tres" id="6_gnksn"]
-[ext_resource type="Script" path="res://addons/top_down/scripts/weapon_system/projectile/ProjectileSpawner.gd" id="6_whjok"]
-[ext_resource type="Script" path="res://addons/top_down/scripts/weapon_system/projectile/SubProjectileManager.gd" id="7_n74ie"]
+[ext_resource type="Script" uid="uid://dhjn85nk8hvg8" path="res://addons/top_down/scripts/weapon_system/projectile/ProjectileSpawner.gd" id="6_whjok"]
+[ext_resource type="Script" uid="uid://2gjhmptwyl6j" path="res://addons/top_down/scripts/weapon_system/projectile/SubProjectileManager.gd" id="7_n74ie"]
 [ext_resource type="Resource" uid="uid://o8teeob07t1x" path="res://addons/top_down/resources/InstanceResources/projectiles/sword_projectile_instance_resource.tres" id="10_5rio8"]
 
 [sub_resource type="Resource" id="Resource_78e1m"]
@@ -75,8 +75,8 @@ tracks/1/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_eij6j"]
 _data = {
-"RESET": SubResource("Animation_g0v6g"),
-"slash": SubResource("Animation_xl7km")
+&"RESET": SubResource("Animation_g0v6g"),
+&"slash": SubResource("Animation_xl7km")
 }
 
 [node name="SwordSlash" instance=ExtResource("1_lwexf")]

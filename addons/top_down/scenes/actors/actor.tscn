@@ -1,31 +1,31 @@
 [gd_scene load_steps=46 format=3 uid="uid://botai66n8rwt3"]
 
-[ext_resource type="Texture2D" uid="uid://bevk5id3o0bei" path="res://addons/top_down/assets/images/shadow.png" id="1_1xdx7"]
-[ext_resource type="Script" path="res://addons/great_games_library/nodes/ResourceNode/ResourceNode.gd" id="1_atd7g"]
-[ext_resource type="Texture2D" uid="uid://dlnar218r3sii" path="res://addons/top_down/assets/images/characters/plumber_16x16_strip8.png" id="1_s6o32"]
-[ext_resource type="Script" path="res://addons/great_games_library/nodes/AreaTransmitter/AreaReceiver2D.gd" id="1_vf4rt"]
-[ext_resource type="Script" path="res://addons/great_games_library/nodes/ResourceNode/ResourceNodeItem.gd" id="2_riryq"]
-[ext_resource type="Script" path="res://addons/top_down/scripts/actor/PushResource.gd" id="3_q65r3"]
-[ext_resource type="Script" path="res://addons/great_games_library/resources/ValueResource/BoolResource.gd" id="4_7aaky"]
-[ext_resource type="Script" path="res://addons/top_down/scripts/actor/MoverTopDown2D.gd" id="5_3rf64"]
-[ext_resource type="Script" path="res://addons/top_down/scripts/damage/HealthResource.gd" id="5_07pdl"]
-[ext_resource type="Script" path="res://addons/top_down/scripts/actor/ActorStatsResource.gd" id="6_k776m"]
-[ext_resource type="Script" path="res://addons/great_games_library/nodes/AreaTransmitter/DataChannelReceiver.gd" id="7_aib52"]
-[ext_resource type="Script" path="res://addons/top_down/scripts/input/InputResource.gd" id="7_y5ipv"]
-[ext_resource type="Script" path="res://addons/top_down/scripts/actor/SpriteFlip.gd" id="8_7uvby"]
-[ext_resource type="Script" path="res://addons/top_down/scripts/damage/DamageResource.gd" id="8_dsg0c"]
-[ext_resource type="Script" path="res://addons/top_down/scripts/actor/CharacterState.gd" id="9_caq0j"]
-[ext_resource type="Script" path="res://addons/top_down/scripts/damage/ActorDamage.gd" id="10_tpsh5"]
-[ext_resource type="Shader" path="res://addons/top_down/scripts/shaders/color_flash.gdshader" id="11_p4kmh"]
+[ext_resource type="Texture2D" uid="uid://btux0r75eqbjr" path="res://addons/top_down/assets/images/shadow.png" id="1_1xdx7"]
+[ext_resource type="Script" uid="uid://cmamc7d0dll1w" path="res://addons/great_games_library/nodes/ResourceNode/ResourceNode.gd" id="1_atd7g"]
+[ext_resource type="Texture2D" uid="uid://n3htegx0uhai" path="res://addons/top_down/assets/images/characters/plumber_16x16_strip8.png" id="1_s6o32"]
+[ext_resource type="Script" uid="uid://ofw62ls53of6" path="res://addons/great_games_library/nodes/AreaTransmitter/AreaReceiver2D.gd" id="1_vf4rt"]
+[ext_resource type="Script" uid="uid://chedvwjumy0sn" path="res://addons/great_games_library/nodes/ResourceNode/ResourceNodeItem.gd" id="2_riryq"]
+[ext_resource type="Script" uid="uid://cd6cuipm8tono" path="res://addons/top_down/scripts/actor/PushResource.gd" id="3_q65r3"]
+[ext_resource type="Script" uid="uid://d0jgh3qg2wmou" path="res://addons/great_games_library/resources/ValueResource/BoolResource.gd" id="4_7aaky"]
+[ext_resource type="Script" uid="uid://d2scqw65lx2jl" path="res://addons/top_down/scripts/actor/MoverTopDown2D.gd" id="5_3rf64"]
+[ext_resource type="Script" uid="uid://16kg0f7asjl3" path="res://addons/top_down/scripts/damage/HealthResource.gd" id="5_07pdl"]
+[ext_resource type="Script" uid="uid://nkeodmm6x11q" path="res://addons/top_down/scripts/actor/ActorStatsResource.gd" id="6_k776m"]
+[ext_resource type="Script" uid="uid://blaqar26snxl1" path="res://addons/great_games_library/nodes/AreaTransmitter/DataChannelReceiver.gd" id="7_aib52"]
+[ext_resource type="Script" uid="uid://dg407o7v5nvo5" path="res://addons/top_down/scripts/input/InputResource.gd" id="7_y5ipv"]
+[ext_resource type="Script" uid="uid://8ifobdqaywav" path="res://addons/top_down/scripts/actor/SpriteFlip.gd" id="8_7uvby"]
+[ext_resource type="Script" uid="uid://dtajw3yyfxdnq" path="res://addons/top_down/scripts/damage/DamageResource.gd" id="8_dsg0c"]
+[ext_resource type="Script" uid="uid://cb4ntrrbpjxgb" path="res://addons/top_down/scripts/actor/CharacterState.gd" id="9_caq0j"]
+[ext_resource type="Script" uid="uid://cxmbgksljk8kw" path="res://addons/top_down/scripts/damage/ActorDamage.gd" id="10_tpsh5"]
+[ext_resource type="Shader" uid="uid://celxe33uvcnhs" path="res://addons/top_down/scripts/shaders/color_flash.gdshader" id="11_p4kmh"]
 [ext_resource type="Resource" uid="uid://byppueuo3drya" path="res://addons/top_down/resources/sounds/damage.tres" id="11_wwbua"]
 [ext_resource type="Resource" uid="uid://dedx0gi4fowby" path="res://addons/top_down/resources/global_resources/axis_multiplication_resource.tres" id="14_7u4bv"]
-[ext_resource type="Script" path="res://addons/top_down/scripts/damage/DamageCooldown.gd" id="14_gnke1"]
-[ext_resource type="Script" path="res://addons/top_down/scripts/damage/HoleTrigger.gd" id="16_f6cga"]
-[ext_resource type="Script" path="res://addons/top_down/scripts/damage/HoleDeath.gd" id="18_634cs"]
+[ext_resource type="Script" uid="uid://b8itkbws2xvs3" path="res://addons/top_down/scripts/damage/DamageCooldown.gd" id="14_gnke1"]
+[ext_resource type="Script" uid="uid://0cbwmmcxqkee" path="res://addons/top_down/scripts/damage/HoleTrigger.gd" id="16_f6cga"]
+[ext_resource type="Script" uid="uid://cafnr4ma2ejrh" path="res://addons/top_down/scripts/damage/HoleDeath.gd" id="18_634cs"]
 [ext_resource type="Resource" uid="uid://xbek2osd7l4w" path="res://addons/top_down/resources/InstanceResources/vfx/damage_points_instance_resource.tres" id="22_nljy0"]
-[ext_resource type="Script" path="res://addons/top_down/scripts/actor/DamageDisplay.gd" id="26_oudld"]
-[ext_resource type="Script" path="res://addons/top_down/scripts/damage/DamageSetup.gd" id="28_oavm0"]
-[ext_resource type="Script" path="res://addons/top_down/scripts/damage/StatusSetup.gd" id="29_t6rdw"]
+[ext_resource type="Script" uid="uid://dmmcp0e1usrdi" path="res://addons/top_down/scripts/actor/DamageDisplay.gd" id="26_oudld"]
+[ext_resource type="Script" uid="uid://b1d3b88kp7bdy" path="res://addons/top_down/scripts/damage/DamageSetup.gd" id="28_oavm0"]
+[ext_resource type="Script" uid="uid://dv5lau8n6dvgp" path="res://addons/top_down/scripts/damage/StatusSetup.gd" id="29_t6rdw"]
 
 [sub_resource type="Resource" id="Resource_u7p0r"]
 resource_name = "movement  properties"
@@ -201,8 +201,8 @@ tracks/1/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_tbujk"]
 _data = {
-"RESET": SubResource("Animation_itq31"),
-"flash": SubResource("Animation_tledj")
+&"RESET": SubResource("Animation_itq31"),
+&"flash": SubResource("Animation_tledj")
 }
 
 [node name="Actor" type="CharacterBody2D"]

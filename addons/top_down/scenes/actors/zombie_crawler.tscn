@@ -1,22 +1,22 @@
 [gd_scene load_steps=38 format=3 uid="uid://b1gnernv8eiu5"]
 
 [ext_resource type="PackedScene" uid="uid://botai66n8rwt3" path="res://addons/top_down/scenes/actors/actor.tscn" id="1_e3uie"]
-[ext_resource type="Script" path="res://addons/great_games_library/nodes/ResourceNode/ResourceNodeItem.gd" id="2_dyii5"]
-[ext_resource type="Script" path="res://addons/top_down/scripts/actor/ActorStatsResource.gd" id="3_t7yij"]
-[ext_resource type="Script" path="res://addons/top_down/scripts/damage/HealthResource.gd" id="4_roy8q"]
-[ext_resource type="Script" path="res://addons/top_down/scripts/actor/PushResource.gd" id="5_dfbwd"]
-[ext_resource type="Script" path="res://addons/great_games_library/resources/ValueResource/BoolResource.gd" id="6_5mrbd"]
-[ext_resource type="Script" path="res://addons/top_down/scripts/input/InputResource.gd" id="7_nocrv"]
-[ext_resource type="Script" path="res://addons/top_down/scripts/damage/DamageResource.gd" id="8_rjgwi"]
-[ext_resource type="Shader" path="res://addons/top_down/scripts/shaders/color_flash.gdshader" id="9_j1lvb"]
-[ext_resource type="Texture2D" uid="uid://gtg5bd7rvsjg" path="res://addons/top_down/assets/images/characters/zombie_crawler_16x16_strip6-sheet.png" id="10_1uw86"]
+[ext_resource type="Script" uid="uid://chedvwjumy0sn" path="res://addons/great_games_library/nodes/ResourceNode/ResourceNodeItem.gd" id="2_dyii5"]
+[ext_resource type="Script" uid="uid://nkeodmm6x11q" path="res://addons/top_down/scripts/actor/ActorStatsResource.gd" id="3_t7yij"]
+[ext_resource type="Script" uid="uid://16kg0f7asjl3" path="res://addons/top_down/scripts/damage/HealthResource.gd" id="4_roy8q"]
+[ext_resource type="Script" uid="uid://cd6cuipm8tono" path="res://addons/top_down/scripts/actor/PushResource.gd" id="5_dfbwd"]
+[ext_resource type="Script" uid="uid://d0jgh3qg2wmou" path="res://addons/great_games_library/resources/ValueResource/BoolResource.gd" id="6_5mrbd"]
+[ext_resource type="Script" uid="uid://dg407o7v5nvo5" path="res://addons/top_down/scripts/input/InputResource.gd" id="7_nocrv"]
+[ext_resource type="Script" uid="uid://dtajw3yyfxdnq" path="res://addons/top_down/scripts/damage/DamageResource.gd" id="8_rjgwi"]
+[ext_resource type="Shader" uid="uid://celxe33uvcnhs" path="res://addons/top_down/scripts/shaders/color_flash.gdshader" id="9_j1lvb"]
+[ext_resource type="Texture2D" uid="uid://cbgdscok2lpo" path="res://addons/top_down/assets/images/characters/zombie_crawler_16x16_strip6-sheet.png" id="10_1uw86"]
 [ext_resource type="Resource" uid="uid://bmurrqosq7bec" path="res://addons/top_down/resources/sounds/kill_zombie.tres" id="11_e1dok"]
 [ext_resource type="Resource" uid="uid://bx3gvcma6vvg" path="res://addons/top_down/resources/InstanceResources/vfx/dead/zomby_crawler_dead_instance_resource.tres" id="12_m3r33"]
 [ext_resource type="PackedScene" uid="uid://cenq1bawfywu8" path="res://addons/top_down/scenes/actors/ai/enemy_ai.tscn" id="13_wn0lf"]
 [ext_resource type="PackedScene" uid="uid://baisjmcsnk3on" path="res://addons/top_down/scenes/weapons/zombie_attack.tscn" id="14_4rg71"]
-[ext_resource type="Script" path="res://addons/great_games_library/resources/InstanceResource/PoolNode.gd" id="17_4fh8m"]
-[ext_resource type="Script" path="res://addons/top_down/scripts/actor/bots/ActiveEnemy.gd" id="18_dltdc"]
-[ext_resource type="Script" path="res://addons/top_down/scripts/actor/bots/BloodTrail.gd" id="19_o65gd"]
+[ext_resource type="Script" uid="uid://bmi3u53vwvxll" path="res://addons/great_games_library/resources/InstanceResource/PoolNode.gd" id="17_4fh8m"]
+[ext_resource type="Script" uid="uid://cu6wm68v5o8re" path="res://addons/top_down/scripts/actor/bots/ActiveEnemy.gd" id="18_dltdc"]
+[ext_resource type="Script" uid="uid://csxddpwcj2b5n" path="res://addons/top_down/scripts/actor/bots/BloodTrail.gd" id="19_o65gd"]
 [ext_resource type="Resource" uid="uid://bvrv6nddhxgp0" path="res://addons/top_down/resources/InstanceResources/vfx/crawler_blood_instance.tres" id="20_gkgng"]
 
 [sub_resource type="Resource" id="Resource_16400"]
@@ -208,9 +208,9 @@ tracks/0/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_esakt"]
 _data = {
-"RESET": SubResource("Animation_48kfv"),
-"idle": SubResource("Animation_jjeif"),
-"walk": SubResource("Animation_d7gcn")
+&"RESET": SubResource("Animation_48kfv"),
+&"idle": SubResource("Animation_jjeif"),
+&"walk": SubResource("Animation_d7gcn")
 }
 
 [node name="ZombieCrawler" instance=ExtResource("1_e3uie")]

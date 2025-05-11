@@ -1,8 +1,8 @@
 [gd_scene load_steps=7 format=3 uid="uid://c2p5h6427kys"]
 
 [ext_resource type="Material" uid="uid://cx7f1n1akjm1x" path="res://addons/top_down/resources/materials/spawn_ring_material.tres" id="1_ng11u"]
-[ext_resource type="Script" path="res://addons/great_games_library/resources/InstanceResource/PoolNode.gd" id="2_hyk5a"]
-[ext_resource type="Script" path="res://addons/top_down/scripts/actor/bots/ActiveEnemy.gd" id="3_fsvvq"]
+[ext_resource type="Script" uid="uid://bmi3u53vwvxll" path="res://addons/great_games_library/resources/InstanceResource/PoolNode.gd" id="2_hyk5a"]
+[ext_resource type="Script" uid="uid://cu6wm68v5o8re" path="res://addons/top_down/scripts/actor/bots/ActiveEnemy.gd" id="3_fsvvq"]
 
 [sub_resource type="Animation" id="Animation_vq43e"]
 length = 0.001
@@ -75,8 +75,8 @@ tracks/2/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_vbmnr"]
 _data = {
-"RESET": SubResource("Animation_vq43e"),
-"spawn_in": SubResource("Animation_bcemg")
+&"RESET": SubResource("Animation_vq43e"),
+&"spawn_in": SubResource("Animation_bcemg")
 }
 
 [node name="SpawnMark" type="Node2D"]

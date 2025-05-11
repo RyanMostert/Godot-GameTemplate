@@ -1,7 +1,7 @@
 [gd_resource type="Resource" script_class="SoundResource" load_steps=3 format=3 uid="uid://byppueuo3drya"]
 
-[ext_resource type="Script" path="res://addons/great_games_library/resources/SoundResource/SoundResource.gd" id="1_bndov"]
-[ext_resource type="AudioStream" uid="uid://cu2ndhnsiand1" path="res://addons/top_down/assets/sounds/damage_0.wav" id="2_xdru1"]
+[ext_resource type="Script" uid="uid://c0anxklpqjusd" path="res://addons/great_games_library/resources/SoundResource/SoundResource.gd" id="1_bndov"]
+[ext_resource type="AudioStream" uid="uid://ceisr4qr6pe3f" path="res://addons/top_down/assets/sounds/damage_0.wav" id="2_xdru1"]
 
 [resource]
 resource_name = "Damage sound"

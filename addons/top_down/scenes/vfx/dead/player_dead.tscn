@@ -1,7 +1,7 @@
 [gd_scene load_steps=9 format=3 uid="uid://csjmqrrduxorv"]
 
-[ext_resource type="Texture2D" uid="uid://b3gj1j73p318" path="res://addons/top_down/assets/images/shadow.png" id="1_r0qid"]
-[ext_resource type="Texture2D" uid="uid://8liwj4r4bj4m" path="res://addons/top_down/assets/images/characters/plumber_16x16_strip8.png" id="3_2l255"]
+[ext_resource type="Texture2D" uid="uid://btux0r75eqbjr" path="res://addons/top_down/assets/images/shadow.png" id="1_r0qid"]
+[ext_resource type="Texture2D" uid="uid://n3htegx0uhai" path="res://addons/top_down/assets/images/characters/plumber_16x16_strip8.png" id="3_2l255"]
 
 [sub_resource type="Animation" id="Animation_wsv66"]
 length = 0.001
@@ -82,8 +82,8 @@ tracks/2/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_bdy4l"]
 _data = {
-"RESET": SubResource("Animation_wsv66"),
-"died": SubResource("Animation_uak2k")
+&"RESET": SubResource("Animation_wsv66"),
+&"died": SubResource("Animation_uak2k")
 }
 
 [sub_resource type="Animation" id="Animation_itq31"]
@@ -119,8 +119,8 @@ tracks/0/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_tbujk"]
 _data = {
-"RESET": SubResource("Animation_itq31"),
-"flash": SubResource("Animation_tledj")
+&"RESET": SubResource("Animation_itq31"),
+&"flash": SubResource("Animation_tledj")
 }
 
 [node name="PlayerBody" type="Node2D"]

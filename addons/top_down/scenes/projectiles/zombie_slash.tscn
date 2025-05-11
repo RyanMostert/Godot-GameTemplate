@@ -1,8 +1,8 @@
 [gd_scene load_steps=9 format=3 uid="uid://cm7673sbsnyya"]
 
 [ext_resource type="PackedScene" uid="uid://beifde6xst23w" path="res://addons/top_down/scenes/projectiles/projectile.tscn" id="1_5ra58"]
-[ext_resource type="Script" path="res://addons/top_down/scripts/damage/properties/DamageTypeResource.gd" id="2_0t18r"]
-[ext_resource type="Texture2D" uid="uid://b401nw0koxhnk" path="res://addons/top_down/assets/images/vfx/slash_2_strip5.png" id="2_eg08h"]
+[ext_resource type="Script" uid="uid://cblgt46kmt8el" path="res://addons/top_down/scripts/damage/properties/DamageTypeResource.gd" id="2_0t18r"]
+[ext_resource type="Texture2D" uid="uid://wic35va1l6bw" path="res://addons/top_down/assets/images/vfx/slash_2_strip5.png" id="2_eg08h"]
 
 [sub_resource type="Resource" id="Resource_4ckad"]
 script = ExtResource("2_0t18r")
@@ -59,8 +59,8 @@ tracks/1/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_07suw"]
 _data = {
-"RESET": SubResource("Animation_3u71e"),
-"slash": SubResource("Animation_2juij")
+&"RESET": SubResource("Animation_3u71e"),
+&"slash": SubResource("Animation_2juij")
 }
 
 [node name="ZombieSlash" instance=ExtResource("1_5ra58")]

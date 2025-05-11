@@ -1,24 +1,24 @@
 [gd_scene load_steps=39 format=3 uid="uid://62j3fy0o3uwl"]
 
 [ext_resource type="PackedScene" uid="uid://botai66n8rwt3" path="res://addons/top_down/scenes/actors/actor.tscn" id="1_fkm2k"]
-[ext_resource type="Script" path="res://addons/great_games_library/nodes/ResourceNode/ResourceNodeItem.gd" id="2_ak5yp"]
-[ext_resource type="Shader" path="res://addons/top_down/scripts/shaders/color_flash.gdshader" id="2_duvie"]
-[ext_resource type="Texture2D" uid="uid://dqingf1wt6opq" path="res://addons/top_down/assets/images/characters/zombie_16x16_strip8.png" id="2_giu7j"]
-[ext_resource type="Script" path="res://addons/top_down/scripts/actor/ActorStatsResource.gd" id="3_j6r3n"]
-[ext_resource type="Script" path="res://addons/top_down/scripts/damage/HealthResource.gd" id="4_ryem0"]
-[ext_resource type="Script" path="res://addons/top_down/scripts/actor/PushResource.gd" id="6_360t8"]
-[ext_resource type="Script" path="res://addons/top_down/scripts/input/InputResource.gd" id="7_r0dvd"]
-[ext_resource type="Script" path="res://addons/great_games_library/resources/ValueResource/BoolResource.gd" id="7_ratbf"]
+[ext_resource type="Script" uid="uid://chedvwjumy0sn" path="res://addons/great_games_library/nodes/ResourceNode/ResourceNodeItem.gd" id="2_ak5yp"]
+[ext_resource type="Shader" uid="uid://celxe33uvcnhs" path="res://addons/top_down/scripts/shaders/color_flash.gdshader" id="2_duvie"]
+[ext_resource type="Texture2D" uid="uid://bl6dqjkf5b262" path="res://addons/top_down/assets/images/characters/zombie_16x16_strip8.png" id="2_giu7j"]
+[ext_resource type="Script" uid="uid://nkeodmm6x11q" path="res://addons/top_down/scripts/actor/ActorStatsResource.gd" id="3_j6r3n"]
+[ext_resource type="Script" uid="uid://16kg0f7asjl3" path="res://addons/top_down/scripts/damage/HealthResource.gd" id="4_ryem0"]
+[ext_resource type="Script" uid="uid://cd6cuipm8tono" path="res://addons/top_down/scripts/actor/PushResource.gd" id="6_360t8"]
+[ext_resource type="Script" uid="uid://dg407o7v5nvo5" path="res://addons/top_down/scripts/input/InputResource.gd" id="7_r0dvd"]
+[ext_resource type="Script" uid="uid://d0jgh3qg2wmou" path="res://addons/great_games_library/resources/ValueResource/BoolResource.gd" id="7_ratbf"]
 [ext_resource type="PackedScene" uid="uid://baisjmcsnk3on" path="res://addons/top_down/scenes/weapons/zombie_attack.tscn" id="7_tyqu3"]
 [ext_resource type="Resource" uid="uid://bmurrqosq7bec" path="res://addons/top_down/resources/sounds/kill_zombie.tres" id="7_uiw1f"]
-[ext_resource type="Script" path="res://addons/top_down/scripts/damage/DamageResource.gd" id="8_3mtk0"]
+[ext_resource type="Script" uid="uid://dtajw3yyfxdnq" path="res://addons/top_down/scripts/damage/DamageResource.gd" id="8_3mtk0"]
 [ext_resource type="PackedScene" uid="uid://cenq1bawfywu8" path="res://addons/top_down/scenes/actors/ai/enemy_ai.tscn" id="9_4t8nd"]
 [ext_resource type="Resource" uid="uid://h86cdxneli8u" path="res://addons/top_down/resources/InstanceResources/vfx/dead/zomby_dead_instance_resource.tres" id="12_bo37y"]
-[ext_resource type="Script" path="res://addons/great_games_library/resources/InstanceResource/PoolNode.gd" id="16_brvnb"]
-[ext_resource type="Script" path="res://addons/top_down/scripts/actor/bots/CriticalDamageReplace.gd" id="18_bt2ks"]
+[ext_resource type="Script" uid="uid://bmi3u53vwvxll" path="res://addons/great_games_library/resources/InstanceResource/PoolNode.gd" id="16_brvnb"]
+[ext_resource type="Script" uid="uid://bqrfvjjusx77o" path="res://addons/top_down/scripts/actor/bots/CriticalDamageReplace.gd" id="18_bt2ks"]
 [ext_resource type="Resource" uid="uid://ddp7qf0qghy82" path="res://addons/top_down/resources/InstanceResources/actors/zomby_crawler_instance_resource.tres" id="19_p8daw"]
 [ext_resource type="Resource" uid="uid://pvw6k1ntsles" path="res://addons/top_down/resources/sounds/zombie_split.tres" id="20_oj468"]
-[ext_resource type="Script" path="res://addons/top_down/scripts/actor/bots/ActiveEnemy.gd" id="21_snkgf"]
+[ext_resource type="Script" uid="uid://cu6wm68v5o8re" path="res://addons/top_down/scripts/actor/bots/ActiveEnemy.gd" id="21_snkgf"]
 
 [sub_resource type="Resource" id="Resource_16400"]
 resource_name = "movement  properties"
@@ -209,9 +209,9 @@ tracks/0/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_esakt"]
 _data = {
-"RESET": SubResource("Animation_48kfv"),
-"idle": SubResource("Animation_jjeif"),
-"walk": SubResource("Animation_d7gcn")
+&"RESET": SubResource("Animation_48kfv"),
+&"idle": SubResource("Animation_jjeif"),
+&"walk": SubResource("Animation_d7gcn")
 }
 
 [node name="Zombie" instance=ExtResource("1_fkm2k")]

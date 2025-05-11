@@ -1,8 +1,8 @@
 [gd_scene load_steps=9 format=3 uid="uid://wejbha6hbaog"]
 
 [ext_resource type="Theme" uid="uid://yctjuhnen1br" path="res://addons/top_down/resources/theme/game_gui_theme.theme" id="1_oii66"]
-[ext_resource type="Script" path="res://addons/top_down/scripts/ui/boot_screen/boot_screen_manager.gd" id="2_fyly6"]
-[ext_resource type="Script" path="res://addons/top_down/scripts/ui/boot_screen/BootPreloader.gd" id="3_1bpyd"]
+[ext_resource type="Script" uid="uid://bp0aa0w4k1nw" path="res://addons/top_down/scripts/ui/boot_screen/boot_screen_manager.gd" id="2_fyly6"]
+[ext_resource type="Script" uid="uid://b32nxpeqneu2t" path="res://addons/top_down/scripts/ui/boot_screen/BootPreloader.gd" id="3_1bpyd"]
 [ext_resource type="Resource" uid="uid://bk0svoela4oim" path="res://addons/top_down/resources/PreloadResource/boot_load_resource.tres" id="4_hnv15"]
 
 [sub_resource type="Animation" id="Animation_o2n6v"]
@@ -102,9 +102,9 @@ tracks/2/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_cebse"]
 _data = {
-"RESET": SubResource("Animation_o2n6v"),
-"idle": SubResource("Animation_p3dpw"),
-"transition_out": SubResource("Animation_6k5uc")
+&"RESET": SubResource("Animation_o2n6v"),
+&"idle": SubResource("Animation_p3dpw"),
+&"transition_out": SubResource("Animation_6k5uc")
 }
 
 [node name="BootLoad" type="ColorRect"]
@@ -167,5 +167,5 @@ size_flags_stretch_ratio = 0.0
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 libraries = {
-"": SubResource("AnimationLibrary_cebse")
+&"": SubResource("AnimationLibrary_cebse")
 }

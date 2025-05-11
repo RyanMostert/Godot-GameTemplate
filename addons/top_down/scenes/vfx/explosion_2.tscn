@@ -1,7 +1,7 @@
 [gd_scene load_steps=5 format=3 uid="uid://bw0gpcyk41btb"]
 
-[ext_resource type="Texture2D" uid="uid://b6bvrfadduy3d" path="res://addons/top_down/assets/images/vfx/explosion_2_strip5.png" id="1_5k0yd"]
-[ext_resource type="Script" path="res://addons/great_games_library/resources/InstanceResource/PoolNode.gd" id="2_f3t0f"]
+[ext_resource type="Texture2D" uid="uid://0pggwubd4rrv" path="res://addons/top_down/assets/images/vfx/explosion_2_strip5.png" id="1_5k0yd"]
+[ext_resource type="Script" uid="uid://bmi3u53vwvxll" path="res://addons/great_games_library/resources/InstanceResource/PoolNode.gd" id="2_f3t0f"]
 
 [sub_resource type="Animation" id="Animation_3bcbr"]
 resource_name = "animate"
@@ -35,7 +35,7 @@ tracks/1/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_qqpok"]
 _data = {
-"animate": SubResource("Animation_3bcbr")
+&"animate": SubResource("Animation_3bcbr")
 }
 
 [node name="Explosion_2" type="Node2D"]
